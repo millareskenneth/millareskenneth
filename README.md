@@ -1,6 +1,6 @@
 ## About Me
 
-Hi, I'm Kenneth, a **Computer Science Student** 
+Hi, I'm Kenneth, an aspiring **Web Developer** 
 
 ## My Skills
 
