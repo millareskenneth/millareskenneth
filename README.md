@@ -1,6 +1,6 @@
 ## About Me
 
-Hi, I'm Kenneth, an aspiring **Web Developer** 
+Hi, I'm Kenneth, **4th-Year Computer Science Student** and aspiring **Web Developer** 
 
 ## My Skills
 
