@@ -79,6 +79,3 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/millareskenneth/millareskenneth/output/snake.svg" alt="Snake animation" />
-
-###
