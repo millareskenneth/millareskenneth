@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Kenneth Millares
 
-<h3 align="center">Full Stack Developer | Software Engineer | Tech Enthusiast</h3>
+<h3 align="center">Full Stack Developer</h3>
 
 ---
 
