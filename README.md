@@ -1,11 +1,3 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=knnthmillares&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&textBg=false"/>
-
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=millareskenneth">
-    <img src="https://komarev.com/ghpvc/?username=millareskenneth&label=Profile%20views&color=00FFFF&style=flat-square" alt="millareskenneth's profile views" />
-  </a>
-</p>
-
 <img src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif" alt="Banner" width="100%" />
 
 ## 📊 GitHub Stats & Trophies
