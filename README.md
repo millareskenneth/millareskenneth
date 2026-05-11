@@ -116,6 +116,10 @@
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" />
 </p>
 
+<p align="center">
+  <img src="./github-metrics.svg" />
+</p>
+
 ---
 
 <div align="center">
