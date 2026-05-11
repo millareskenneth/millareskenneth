@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/millareskenneth">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=millareskenneth&cache_seconds=7200&show_icons=true&theme=tokyonight&border_radius=10" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=millareskenneth&cache_seconds=7200&show_icons=true&theme=tokyonight&border_radius=10&count_private=true&include_all_commits=true" />
   </a>
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=millareskenneth&theme=tokyonight&hide_border=true" />
 </p>
@@ -95,7 +95,7 @@
 ## 📈 Most Used Languages
 
 <p align="center">
-  <img src="https://stats.pphat.top/languages?username=millareskenneth" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&theme=tokyonight&count_private=true" />
 </p>
 
 ---
