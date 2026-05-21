@@ -22,9 +22,9 @@ jobs:
           user: millareskenneth
 
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, metadata
           config_display: columns
-          config_padding: 0, 40 + 25%
+          config_order: base.header, languages, habits, calendar, achievements, skyline, base.metadata
 
           config_timezone: Asia/Manila
 
