@@ -27,14 +27,9 @@ jobs:
           template: classic
           base: header
           config_display: columns
-          config_order: base.header, skyline, languages, habits, calendar, achievements
+          config_order: base.header, languages, habits, calendar, achievements
 
           config_timezone: Asia/Manila
-
-          plugin_skyline: yes
-          plugin_skyline_year: 2020
-          plugin_skyline_frames: 6
-          plugin_skyline_quality: 1
 
           plugin_languages: yes
           plugin_languages_limit: 8
