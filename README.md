@@ -2,6 +2,10 @@
   <img height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzR6ejE5OXlncWdrYW9tempwejB2ZG84b2s5dTBtYzRyN2oyOHBuZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YI4eR3bHBCByM/giphy.gif"  />
 </div>
 
+<p align="center">
+  <img src="/github-metrics.svg" alt="Metrics" width="700" />
+</p>
+
 ###
 
 <div align="center">
