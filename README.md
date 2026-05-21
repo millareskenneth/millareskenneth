@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-  <img src="/github-calendar-full.svg" alt="Full-history calendar" width="100%" />
+  <img src="/github-calendar.svg" alt="2025-2026 calendar" width="100%" />
 </div>
 
 <div align="center">

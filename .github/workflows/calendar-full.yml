@@ -1,4 +1,4 @@
-name: Calendar Full History
+name: Calendar
 
 on:
   schedule:
@@ -24,8 +24,8 @@ jobs:
 
           template: classic
           base: ""
-          filename: github-calendar-full.svg
+          filename: github-calendar.svg
           output_action: commit
 
           plugin_calendar: yes
-          plugin_calendar_limit: 0
+          plugin_calendar_limit: 2
