@@ -233,17 +233,7 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/millareskenneth/millareskenneth/languages-output/languages.svg" height="150" alt="languages graph" /> <br>
-  <img src="https://streak-stats.demolab.com?user=millareskenneth&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" /> <br>
-  <img src="https://raw.githubusercontent.com/millareskenneth/millareskenneth/trophy-output/trophy.svg" height="150" alt="trophy graph"  />
+  <img src="/github-metrics.svg" alt="Metrics" width="100%" />
 </div>
-
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/millareskenneth/millareskenneth/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/millareskenneth/millareskenneth/pacman-output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/millareskenneth/millareskenneth/pacman-output/pacman-contribution-graph.svg">
-</picture>
 
 ###
