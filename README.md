@@ -5,10 +5,6 @@
 </div>
 
 <div align="center">
-  <img src="/github-isocalendar.svg" alt="Half-year calendar" width="100%" />
-</div>
-
-<div align="center">
   <img src="/github-isocalendar-full.svg" alt="Full-year calendar" width="100%" />
 </div>
 
