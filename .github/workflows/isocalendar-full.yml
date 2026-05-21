@@ -1,36 +1,31 @@
-name: Languages
+name: Isocalendar Full Year
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 8 * * *"
   push:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
-  github-languages:
+  github-isocalendar-full:
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-      - name: Generate Languages
+      - name: Generate Full-year Calendar
         uses: lowlighter/metrics@latest
 
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          user: millareskenneth
-
           template: classic
           base: ""
-          filename: github-languages.svg
+          filename: github-isocalendar-full.svg
           output_action: commit
 
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
-
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

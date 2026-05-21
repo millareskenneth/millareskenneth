@@ -5,7 +5,15 @@
 </div>
 
 <div align="center">
-  <img src="/github-skyline.svg" alt="GitHub Skyline" width="100%" />
+  <img src="/github-isocalendar.svg" alt="Half-year calendar" width="100%" />
+</div>
+
+<div align="center">
+  <img src="/github-isocalendar-full.svg" alt="Full-year calendar" width="100%" />
+</div>
+
+<div align="center">
+  <img src="/github-languages.svg" alt="Languages" width="100%" />
 </div>
 
 ###
