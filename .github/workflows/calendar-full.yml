@@ -1,0 +1,31 @@
+name: Calendar Full History
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  github-calendar-full:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate Full-history Calendar
+        uses: lowlighter/metrics@latest
+
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          template: classic
+          base: ""
+          filename: github-calendar-full.svg
+          output_action: commit
+
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
