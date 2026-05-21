@@ -27,14 +27,9 @@ jobs:
           template: classic
           base: header
           config_display: columns
-          config_order: base.header, languages, habits, calendar, achievements
+          config_order: base.header, habits, calendar, achievements
 
           config_timezone: Asia/Manila
-
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
 
           plugin_habits: yes
           plugin_habits_facts: no
