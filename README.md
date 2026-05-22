@@ -102,7 +102,7 @@
 <!-- FOOTER: the wave banner closes the page with the same visual language as the header. -->
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,100:0f172a&height=140&section=footer&text=Thanks%20for%20stopping%20by&fontSize=26&fontColor=ffffff&animation=fadeIn&fontAlignY=40"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,100:0f172a&height=140&section=footer"
     alt="Capsule Render Footer"
   />
 </div>
