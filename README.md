@@ -1,7 +1,7 @@
 <!-- HEADER BANNER: capsule render sets the tone and gives the profile a clean opening frame. -->
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:06b6d4&height=180&section=header&text=YOUR_USERNAME&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Developer%20Portfolio&descAlignY=55&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:06b6d4&height=180&section=header&text=millareskenneth&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Developer%20Portfolio&descAlignY=55&descSize=18"
     alt="Capsule Render Header"
   />
 </div>
@@ -9,15 +9,13 @@
 <!-- TYPOGRAPHY: the typing line adds motion without making the page feel noisy. -->
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=3200&pause=900&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+modern+web+experiences;Full-stack+developer+%7C+UI-focused+engineer;Python+%2B+JavaScript+%2B+TypeScript+%2B+Cloud-ready+tooling;Clean+systems+with+strong+attention+to+detail"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=3200&pause=900&color=7DD3FC&center=true&vCenter=true&width=520&lines=fullstack+developer"
     alt="Typing SVG"
   />
 </div>
 
 <div align="center">
-  <a href="https://github.com/YOUR_USERNAME?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Open%20Source-111827?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" /></a>
-  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Focused%20On-0ea5e9?style=for-the-badge&logoColor=white" alt="Focused On" /></a>
+  <a href="https://github.com/millareskenneth?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
 </div>
 
 <!-- INTRO: short, high-signal, and easy to read on mobile. -->
@@ -39,12 +37,12 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github&include_all_commits=true"
+    src="https://github-readme-stats.vercel.app/api?username=millareskenneth&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github&include_all_commits=true"
     alt="GitHub Stats"
     height="165"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
     alt="Most Used Languages"
     height="165"
   />
@@ -55,7 +53,7 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 
 <div align="center">
   <img
-    src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=00000000"
+    src="https://streak-stats.demolab.com?user=millareskenneth&theme=tokyonight&hide_border=true&background=00000000"
     alt="GitHub Streak Stats"
   />
 </div>
@@ -65,7 +63,7 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
     alt="Most Used Languages"
     height="260"
   />
@@ -76,7 +74,7 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
     alt="GitHub Activity Graph"
   />
 </div>
@@ -86,7 +84,7 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 
 <div align="center">
   <img
-    src="https://metrics.lecoq.io/YOUR_USERNAME"
+    src="https://metrics.lecoq.io/millareskenneth"
     alt="Lowlighter Metrics"
     width="100%"
   />
@@ -96,14 +94,14 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 ## Featured Projects
 
 <div align="center">
-  <a href="https://github.com/YOUR_USERNAME/project-one">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=project-one&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project One" />
+    <a href="https://github.com/millareskenneth/project-one">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=millareskenneth&repo=project-one&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project One" />
   </a>
-  <a href="https://github.com/YOUR_USERNAME/project-two">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=project-two&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project Two" />
+  <a href="https://github.com/millareskenneth/project-two">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=millareskenneth&repo=project-two&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project Two" />
   </a>
-  <a href="https://github.com/YOUR_USERNAME/project-three">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=project-three&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project Three" />
+  <a href="https://github.com/millareskenneth/project-three">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=millareskenneth&repo=project-three&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project Three" />
   </a>
 </div>
 
@@ -111,7 +109,7 @@ I enjoy turning messy requirements into simple, reliable experiences across the 
 ## Connect With Me
 
 <div align="center">
-  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/millareskenneth"><img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </div>
