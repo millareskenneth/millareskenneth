@@ -1,7 +1,7 @@
 <!-- HEADER BANNER: capsule render sets the tone and gives the profile a clean opening frame. -->
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:06b6d4&height=180&section=header&text=millareskenneth&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Developer%20Portfolio&descAlignY=55&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:06b6d4&height=180&section=header&text=millareskenneth&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&descAlignY=55&descSize=18"
     alt="Capsule Render Header"
   />
 </div>
@@ -18,14 +18,6 @@
   <a href="https://github.com/millareskenneth?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
 </div>
 
-<!-- INTRO: short, high-signal, and easy to read on mobile. -->
-## About Me
-
-I build polished web products with a strong bias toward clarity, speed, and good interfaces. My work spans frontend systems, backend services, and developer tooling, with an emphasis on maintainable architecture and thoughtful UX.
-
-I enjoy turning messy requirements into simple, reliable experiences across the stack. When I am not shipping features, I am usually refining design systems, performance, or developer workflows.
-
-<!-- TECH STACK: skill-icons keeps the stack compact and visually balanced. -->
 ## Tech Stack
 
 <div align="center">
