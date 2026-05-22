@@ -78,32 +78,6 @@
   />
 </div>
 
-<!-- METRICS: keep the lowlighter section as a focused accent rather than the whole layout. -->
-## Lowlighter Metrics
-
-<div align="center">
-  <img
-    src="https://metrics.lecoq.io/millareskenneth"
-    alt="Lowlighter Metrics"
-    width="100%"
-  />
-</div>
-
-<!-- FEATURED PROJECTS: replace the placeholder repositories with your actual pinned work. -->
-## Featured Projects
-
-<div align="center">
-    <a href="https://github.com/millareskenneth/project-one">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=millareskenneth&repo=project-one&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project One" />
-  </a>
-  <a href="https://github.com/millareskenneth/project-two">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=millareskenneth&repo=project-two&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project Two" />
-  </a>
-  <a href="https://github.com/millareskenneth/project-three">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=millareskenneth&repo=project-three&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Project Three" />
-  </a>
-</div>
-
 <!-- SOCIALS: use a small, deliberate set of links instead of a crowded badge wall. -->
 ## Connect With Me
 
