@@ -29,14 +29,8 @@
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=millareskenneth&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github&include_all_commits=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=tokyonight"
     alt="GitHub Stats"
-    height="165"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
-    alt="Most Used Languages"
-    height="165"
   />
 </div>
 
@@ -50,14 +44,13 @@
   />
 </div>
 
-<!-- LANGUAGES: keep this separate so the profile scans well at a glance. -->
+<!-- LANGUAGES: the repos-per-language card is more stable and keeps the same visual role. -->
 ## Most Used Languages
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=tokyonight"
     alt="Most Used Languages"
-    height="260"
   />
 </div>
 
