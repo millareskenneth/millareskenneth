@@ -56,15 +56,15 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
-    alt="GitHub Stats"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
+    alt="GitHub Activity Graph"
   />
 </div>
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
-    alt="GitHub Activity Graph"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
+    alt="GitHub Stats"
   />
 </div>
 
