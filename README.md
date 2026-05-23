@@ -18,7 +18,7 @@
   <a href="https://github.com/millareskenneth?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" /></a>
 </div>
 
-## Tech Stack
+## Technologies I've Used
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,electron,linux&theme=dark" alt="Skill Icons" />
