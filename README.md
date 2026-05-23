@@ -49,8 +49,8 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=millareskenneth&theme=radical"
-    alt="GitHub Contribution Overview"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
+    alt="GitHub Activity Graph"
   />
 </div>
 
@@ -58,13 +58,6 @@
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
     alt="GitHub Stats"
-  />
-</div>
-
-<div align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
-    alt="GitHub Activity Graph"
   />
 </div>
 
