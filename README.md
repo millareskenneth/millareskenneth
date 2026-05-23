@@ -21,7 +21,7 @@
 ## Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,angular,django,laravel,mysql,postgres,docker,electron,tailwind,firebase&theme=dark" alt="Skill Icons" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,electron,linux&theme=dark" alt="Skill Icons" />
 </div>
 
 <!-- STATS: keep the cards tight and use one consistent dark palette. -->
