@@ -21,7 +21,25 @@
 ## Technologies I've Used
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,electron,linux&theme=dark" alt="Skill Icons" />
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; max-width:860px; margin:0 auto;">
+    <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" width="52" height="52" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript" width="52" height="52" /></a>
+    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript" width="52" height="52" /></a>
+    <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React" width="52" height="52" /></a>
+    <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" width="52" height="52" /></a>
+    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" alt="Tailwind CSS" width="52" height="52" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML" width="52" height="52" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS" width="52" height="52" /></a>
+    <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=flask&theme=dark" alt="Flask" width="52" height="52" /></a>
+    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=django&theme=dark" alt="Django" width="52" height="52" /></a>
+    <a href="https://supabase.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase" width="52" height="52" /></a>
+    <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=firebase&theme=dark" alt="Firebase" width="52" height="52" /></a>
+    <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgresql&theme=dark" alt="PostgreSQL" width="52" height="52" /></a>
+    <a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=laravel&theme=dark" alt="Laravel" width="52" height="52" /></a>
+    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL" width="52" height="52" /></a>
+    <a href="https://www.electronjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=electron&theme=dark" alt="Electron" width="52" height="52" /></a>
+    <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" width="52" height="52" /></a>
+  </div>
 </div>
 
 <!-- STATS: keep the cards tight and use one consistent dark palette. -->
