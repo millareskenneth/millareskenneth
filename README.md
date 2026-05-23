@@ -1,7 +1,7 @@
 <!-- HEADER BANNER: capsule render sets the tone and gives the profile a clean opening frame. -->
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:06b6d4&height=180&section=header&text=millareskenneth&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&descAlignY=55&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,100:8b5cf6&height=180&section=header&text=millareskenneth&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&descAlignY=55&descSize=18"
     alt="Capsule Render Header"
   />
 </div>
@@ -9,7 +9,7 @@
 <!-- TYPOGRAPHY: the typing line adds motion without making the page feel noisy. -->
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=3200&pause=900&color=7DD3FC&center=true&vCenter=true&width=520&lines=fullstack+developer"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=22&duration=3200&pause=900&color=C084FC&center=true&vCenter=true&width=520&lines=fullstack+developer"
     alt="Typing SVG"
   />
 </div>
@@ -22,6 +22,8 @@
 
 <div align="center">
   <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; max-width:860px; margin:0 auto;">
+    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" width="52" height="52" /></a>
+    <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" width="52" height="52" /></a>
     <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" width="52" height="52" /></a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript" width="52" height="52" /></a>
     <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript" width="52" height="52" /></a>
@@ -47,14 +49,14 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=millareskenneth&theme=tokyonight"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=millareskenneth&theme=radical"
     alt="GitHub Contribution Overview"
   />
 </div>
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=tokyonight"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
     alt="GitHub Stats"
   />
 </div>
@@ -64,7 +66,7 @@
 
 <div align="center">
   <img
-    src="https://streak-stats.demolab.com?user=millareskenneth&theme=tokyonight&hide_border=true&background=00000000"
+    src="https://streak-stats.demolab.com?user=millareskenneth&theme=radical&hide_border=true&background=00000000"
     alt="GitHub Streak Stats"
   />
 </div>
@@ -74,14 +76,14 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=tokyonight"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=radical"
     alt="Most Used Languages"
   />
 </div>
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=tokyonight"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=radical"
     alt="Most Commit Languages"
   />
 </div>
@@ -91,7 +93,7 @@
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
     alt="GitHub Activity Graph"
   />
 </div>
@@ -108,7 +110,7 @@
 <!-- FOOTER: the wave banner closes the page with the same visual language as the header. -->
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,100:0f172a&height=140&section=footer"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:1e1b4b&height=140&section=footer"
     alt="Capsule Render Footer"
   />
 </div>
