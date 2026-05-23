@@ -66,14 +66,14 @@
     <tr>
       <td align="center" valign="top">
         <img
-          src="https://github-readme-stats.vercel.app/api?username=millareskenneth&show_icons=true&commits_year=2026&theme=radical&hide_border=true"
+          src="./profile/stats-2026.svg"
           alt="GitHub Stats 2026"
           width="380"
         />
       </td>
       <td align="center" valign="top">
         <img
-          src="https://github-readme-stats.vercel.app/api?username=millareskenneth&show_icons=true&commits_year=2025&theme=radical&hide_border=true"
+          src="./profile/stats-2025.svg"
           alt="GitHub Stats 2025"
           width="380"
         />
@@ -97,7 +97,7 @@
 
 <div align="center">
   <img
-    src="https://github-profile-trophy.vercel.app/?username=millareskenneth&theme=radical&column=4&margin-w=8&margin-h=8&no-bg=true&no-frame=true"
+    src="https://github-profile-trophy.vercel.app/?username=millareskenneth&theme=radical&column=3&margin-w=8&margin-h=8&no-bg=true&no-frame=true&title=-Stars,-Issues,-Reviews"
     alt="GitHub Achievements"
   />
 </div>

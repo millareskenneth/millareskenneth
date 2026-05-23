@@ -1,0 +1,32 @@
+name: Generate README stats cards
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate 2026 stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&commits_year=2026&theme=radical
+          path: profile/stats-2026.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate 2025 stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&commits_year=2025&theme=radical
+          path: profile/stats-2025.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
