@@ -49,6 +49,13 @@
 
 <div align="center">
   <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=millareskenneth&theme=radical"
+    alt="GitHub Contribution Overview"
+  />
+</div>
+
+<div align="center">
+  <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
     alt="GitHub Stats"
   />
@@ -75,18 +82,24 @@
 ## Most Used Languages
 
 <div align="center">
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; max-width:760px; margin:0 auto;">
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=radical"
-      alt="Most Used Languages"
-      style="flex:1 1 320px; max-width:320px; width:100%;"
-    />
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=radical"
-      alt="Most Commit Languages"
-      style="flex:1 1 320px; max-width:320px; width:100%;"
-    />
-  </div>
+  <table>
+    <tr>
+      <td align="center" valign="top">
+        <img
+          src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=radical"
+          alt="Most Used Languages"
+          width="340"
+        />
+      </td>
+      <td align="center" valign="top">
+        <img
+          src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=radical"
+          alt="Most Commit Languages"
+          width="340"
+        />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- SOCIALS: use a small, deliberate set of links instead of a crowded badge wall. -->
