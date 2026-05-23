@@ -63,8 +63,8 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
-    alt="GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=millareskenneth&show_icons=true&include_all_commits=true&theme=radical&hide_border=true"
+    alt="All-Time GitHub Stats"
   />
 </div>
 
