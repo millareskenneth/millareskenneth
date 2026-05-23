@@ -61,6 +61,13 @@
   />
 </div>
 
+<div align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
+    alt="GitHub Activity Graph"
+  />
+</div>
+
 <!-- STREAKS: this gives the profile a more active, dashboard-like feel. -->
 ## GitHub Streak Stats
 
@@ -75,27 +82,18 @@
 ## Most Used Languages
 
 <div align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=radical"
-    alt="Most Used Languages"
-  />
-</div>
-
-<div align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=radical"
-    alt="Most Commit Languages"
-  />
-</div>
-
-<!-- ACTIVITY GRAPH: a full-width chart helps anchor the middle of the page. -->
-## GitHub Activity Graph
-
-<div align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
-    alt="GitHub Activity Graph"
-  />
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; max-width:920px; margin:0 auto;">
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=radical"
+      alt="Most Used Languages"
+      style="flex:1 1 420px; max-width:420px; width:100%;"
+    />
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=radical"
+      alt="Most Commit Languages"
+      style="flex:1 1 420px; max-width:420px; width:100%;"
+    />
+  </div>
 </div>
 
 <!-- SOCIALS: use a small, deliberate set of links instead of a crowded badge wall. -->
