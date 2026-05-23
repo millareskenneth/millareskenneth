@@ -49,15 +49,15 @@
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
-    alt="GitHub Activity Graph"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
+    alt="GitHub Stats"
   />
 </div>
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=millareskenneth&theme=radical"
-    alt="GitHub Stats"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=millareskenneth&theme=radical&hide_border=true&radius=12&area=true&custom_title=Contribution%20Graph"
+    alt="GitHub Activity Graph"
   />
 </div>
 
@@ -75,16 +75,16 @@
 ## Most Used Languages
 
 <div align="center">
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; max-width:920px; margin:0 auto;">
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; max-width:760px; margin:0 auto;">
     <img
       src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=millareskenneth&theme=radical"
       alt="Most Used Languages"
-      style="flex:1 1 420px; max-width:420px; width:100%;"
+      style="flex:1 1 320px; max-width:320px; width:100%;"
     />
     <img
       src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=millareskenneth&theme=radical"
       alt="Most Commit Languages"
-      style="flex:1 1 420px; max-width:420px; width:100%;"
+      style="flex:1 1 320px; max-width:320px; width:100%;"
     />
   </div>
 </div>
