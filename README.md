@@ -39,6 +39,10 @@
     <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgresql&theme=dark" alt="PostgreSQL" width="52" height="52" /></a>
     <a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=laravel&theme=dark" alt="Laravel" width="52" height="52" /></a>
     <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL" width="52" height="52" /></a>
+    <a href="https://jestjs.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=jest&theme=dark" alt="Jest" width="52" height="52" /></a>
+    <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="C++" width="52" height="52" /></a>
+    <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" alt="Ubuntu" width="52" height="52" /></a>
+    <a href="https://linuxmint.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mint&theme=dark" alt="Linux Mint" width="52" height="52" /></a>
     <a href="https://www.electronjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=electron&theme=dark" alt="Electron" width="52" height="52" /></a>
     <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" width="52" height="52" /></a>
   </div>
