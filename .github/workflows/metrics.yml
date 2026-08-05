@@ -41,19 +41,15 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
           config_display: large
+          config_padding: 0, 8 + 0%
           extras_css: |
             .row {
-              gap: 56px !important;
-              column-gap: 56px !important;
+              gap: 40px !important;
+              justify-content: space-between !important;
             }
             .row > section {
-              flex: 1 1 0;
+              flex: 1 1 0 !important;
               min-width: 0;
-              padding-right: 8px;
-            }
-            .row > section + section {
-              padding-left: 8px;
-              border-left: 1px solid rgba(148, 163, 184, 0.18);
             }
 
       - name: Isometric calendar (half year)
@@ -67,6 +63,8 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           config_timezone: Asia/Manila
+          config_display: large
+          config_padding: 0, 8 + 0%
 
       - name: Achievements
         uses: dkhokhlov/metrics@master
@@ -82,3 +80,5 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_limit: 6
           config_timezone: Asia/Manila
+          config_display: large
+          config_padding: 0, 8 + 0%
