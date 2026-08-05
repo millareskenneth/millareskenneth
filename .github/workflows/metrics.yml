@@ -1,10 +1,9 @@
 # Metrics Embed — https://github.com/marketplace/actions/metrics-embed
 # Requires repository secret: METRICS_TOKEN (classic GitHub PAT)
 #
-# Uses dkhokhlov/metrics@master (not lowlighter/metrics@latest) because
-# official @latest still queries deprecated Projects (classic), which breaks
-# the achievements plugin. Upstream fix: lowlighter/metrics#1769
-# Fork: https://github.com/dkhokhlov/metrics
+# Most plugins use lowlighter/metrics@latest.
+# Achievements uses dkhokhlov/metrics@master because official @latest still
+# queries deprecated Projects (classic). Upstream: lowlighter/metrics#1769
 #
 # Steps run sequentially in one job to avoid PAT rate-limit storms.
 
@@ -33,7 +32,7 @@ jobs:
       contents: write
     steps:
       - name: Base metrics
-        uses: dkhokhlov/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -43,7 +42,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Isometric calendar (half year)
-        uses: dkhokhlov/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: github-isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -55,7 +54,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Languages
-        uses: dkhokhlov/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: github-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -65,8 +64,10 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
           plugin_languages_colors: github
           plugin_languages_sections: most-used
+          plugin_languages_other: yes
           config_timezone: Asia/Manila
 
       - name: Achievements
@@ -82,34 +83,4 @@ jobs:
           plugin_achievements_secrets: no
           plugin_achievements_display: compact
           plugin_achievements_limit: 6
-          config_timezone: Asia/Manila
-
-      - name: Recent activity
-        uses: dkhokhlov/metrics@master
-        with:
-          filename: github-activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: millareskenneth
-          template: classic
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_visibility: public
-          config_timezone: Asia/Manila
-
-      - name: Coding habits
-        uses: dkhokhlov/metrics@master
-        with:
-          filename: github-habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: millareskenneth
-          template: classic
-          base: ""
-          plugin_habits: yes
-          plugin_habits_from: 100
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
           config_timezone: Asia/Manila

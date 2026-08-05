@@ -1,16 +1,16 @@
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=120&section=header&text=millareskenneth&fontSize=32&fontColor=f8fafc&animation=fadeIn&fontAlignY=35&desc=fullstack%20developer&descAlignY=58&descSize=14&descColor=94a3b8"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=140&section=header&text=millareskenneth&fontSize=36&fontColor=f8fafc&animation=fadeIn&fontAlignY=35&desc=fullstack%20developer&descAlignY=56&descSize=16&descColor=94a3b8"
     alt="millareskenneth"
-    width="480"
+    width="560"
   />
 </div>
 
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=16&duration=3200&pause=900&color=94A3B8&center=true&vCenter=true&width=420&height=28&lines=fullstack+developer;building+things+on+the+web"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=94A3B8&center=true&vCenter=true&width=480&height=32&lines=fullstack+developer;building+things+on+the+web"
     alt="Typing SVG"
-    width="420"
+    width="480"
   />
 </div>
 
@@ -31,7 +31,7 @@
   <img
     src="https://skillicons.dev/icons?i=git,github,python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,jest,cpp,ubuntu,linux,electron&theme=dark&perline=11"
     alt="Technologies"
-    width="420"
+    width="480"
   />
 </div>
 
@@ -40,17 +40,13 @@
 ## GitHub Metrics
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="420" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="480" />
   <br />
-  <img src="./github-isocalendar.svg" alt="Half-year isometric commit calendar" width="420" />
+  <img src="./github-isocalendar.svg" alt="Half-year isometric commit calendar" width="480" />
   <br />
-  <img src="./github-languages.svg" alt="Languages" width="420" />
+  <img src="./github-languages.svg" alt="Languages" width="480" />
   <br />
-  <img src="./github-achievements.svg" alt="Achievements" width="420" />
-  <br />
-  <img src="./github-activity.svg" alt="Recent activity" width="420" />
-  <br />
-  <img src="./github-habits.svg" alt="Coding habits" width="420" />
+  <img src="./github-achievements.svg" alt="Achievements" width="480" />
 </div>
 
 ---
@@ -71,8 +67,8 @@
 
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:334155,50:1e293b,100:0f172a&height=90&section=footer"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:334155,50:1e293b,100:0f172a&height=100&section=footer"
     alt="Footer"
-    width="480"
+    width="560"
   />
 </div>
