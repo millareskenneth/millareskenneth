@@ -35,7 +35,11 @@
   <br />
   <img src="./github-isocalendar.svg" alt="Half-year isometric commit calendar" width="480" />
   <br />
-  <img src="./github-languages.svg" alt="Languages" width="480" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117"
+    alt="Most used languages"
+    width="480"
+  />
   <br />
   <img src="./github-achievements.svg" alt="Achievements" width="480" />
 </div>
