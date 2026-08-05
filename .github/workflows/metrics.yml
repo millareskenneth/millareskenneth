@@ -1,9 +1,12 @@
 # Metrics Embed — https://github.com/marketplace/actions/metrics-embed
 # Requires repository secret: METRICS_TOKEN (classic GitHub PAT)
-# Docs: https://github.com/lowlighter/metrics
 #
-# Jobs run sequentially in one runner to avoid PAT rate-limit storms
-# (parallel jobs often produce "Unexpected error" inside plugin SVGs).
+# Uses dkhokhlov/metrics@master (not lowlighter/metrics@latest) because
+# official @latest still queries deprecated Projects (classic), which breaks
+# the achievements plugin. Upstream fix: lowlighter/metrics#1769
+# Fork: https://github.com/dkhokhlov/metrics
+#
+# Steps run sequentially in one job to avoid PAT rate-limit storms.
 
 name: Metrics
 
@@ -30,7 +33,7 @@ jobs:
       contents: write
     steps:
       - name: Base metrics
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -40,7 +43,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Isometric calendar (half year)
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -52,7 +55,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Isometric calendar (full year)
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-isocalendar-full.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -64,7 +67,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Languages
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -79,7 +82,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Achievements
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -94,7 +97,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Recent activity
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -109,7 +112,7 @@ jobs:
           config_timezone: Asia/Manila
 
       - name: Coding habits
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
