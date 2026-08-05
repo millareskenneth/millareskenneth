@@ -38,49 +38,29 @@ with a focus on clean UI, solid APIs, and shipping fast.
 
 ## GitHub Metrics
 
-> Powered by [lowlighter/metrics](https://github.com/lowlighter/metrics) · [Metrics Embed](https://github.com/marketplace/actions/metrics-embed)
+> Auto-refreshed with [Metrics Embed](https://github.com/marketplace/actions/metrics-embed)
 
 <div align="center">
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
-</div>
-
-### Contribution Calendar
-
-<div align="center">
-  <img src="./github-isocalendar-full.svg" alt="Isometric commit calendar (full year)" width="100%" />
+  <br />
+  <img src="./github-isocalendar-full.svg" alt="Isometric commit calendar" width="100%" />
+  <br />
+  <img src="./github-languages.svg" alt="Languages" width="480" />
+  <br />
+  <img src="./github-achievements.svg" alt="Achievements" width="480" />
+  <br />
+  <img src="./github-activity.svg" alt="Recent activity" width="480" />
+  <br />
+  <img src="./github-habits.svg" alt="Coding habits" width="480" />
 </div>
 
 <details>
-  <summary>Half-year calendar</summary>
+  <summary>Half-year isometric calendar</summary>
   <br />
   <div align="center">
     <img src="./github-isocalendar.svg" alt="Isometric commit calendar (half year)" width="100%" />
   </div>
 </details>
-
-### Languages
-
-<div align="center">
-  <img src="./github-languages.svg" alt="Languages activity" width="480" />
-</div>
-
-### Achievements
-
-<div align="center">
-  <img src="./github-achievements.svg" alt="GitHub Achievements" width="480" />
-</div>
-
-### Recent Activity
-
-<div align="center">
-  <img src="./github-activity.svg" alt="Recent activity" width="480" />
-</div>
-
-### Coding Habits
-
-<div align="center">
-  <img src="./github-habits.svg" alt="Coding habits" width="480" />
-</div>
 
 ---
 
