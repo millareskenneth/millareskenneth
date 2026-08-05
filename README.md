@@ -31,15 +31,15 @@
 ## GitHub Metrics
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="480" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="560" />
   <br />
-  <img src="./github-isocalendar.svg" alt="Half-year isometric commit calendar" width="480" />
+  <img src="./github-isocalendar.svg" alt="Half-year isometric commit calendar" width="560" />
   <br />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117"
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=millareskenneth&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"
     alt="Most used languages"
-    width="480"
+    width="360"
   />
   <br />
-  <img src="./github-achievements.svg" alt="Achievements" width="480" />
+  <img src="./github-achievements.svg" alt="Achievements" width="560" />
 </div>

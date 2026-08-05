@@ -40,6 +40,21 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
+          config_display: large
+          extras_css: |
+            .row {
+              gap: 56px !important;
+              column-gap: 56px !important;
+            }
+            .row > section {
+              flex: 1 1 0;
+              min-width: 0;
+              padding-right: 8px;
+            }
+            .row > section + section {
+              padding-left: 8px;
+              border-left: 1px solid rgba(148, 163, 184, 0.18);
+            }
 
       - name: Isometric calendar (half year)
         uses: lowlighter/metrics@latest
