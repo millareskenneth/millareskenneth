@@ -1,14 +1,12 @@
 <p align="center">
-  <img src="./assets/kenneth.dev.svg" alt="kenneth.dev" height="40" />
+  <img src="./assets/kenneth.dev.svg" alt="kenneth.dev" width="720" />
 </p>
 
 <p align="center">
-  <img src="./assets/tagline.svg" alt="Anyone Can Build. Not Everyone Can Solve." height="18" />
+  <img src="./assets/tagline.svg" alt="Anyone Can Build. Not Everyone Can Solve." width="900" />
 </p>
 
 <p align="center">
-  <b><code>$ status: online</code> 🟢</b>
-  <br /><br />
   <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=00ff41" alt="Portfolio" /></a>
   <a href="https://github.com/millareskenneth?tab=followers"><img src="https://img.shields.io/badge/Followers-46-00ff41?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=0D1117" alt="Followers" /></a>
   <a href="https://kenneth-portfolio-beige.vercel.app/#contact"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=gmail&logoColor=00ff41" alt="Contact" /></a>
@@ -16,15 +14,15 @@
 
 ---
 
-### `> whoami`
+## About
 
 | | |
 |:---|:---:|
-| Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts.<br /><br />**Status:** Open for collaboration 🟢<br />**Location:** Taguig City, Philippines<br />**Timezone:** Asia/Manila (UTC+8)<br />**Focus:** PeritiaOS — developer-first Linux distro<br />**Learning:** Haskell<br /><br /><pre>millareskenneth@github:~$ whoami<br />fullstack developer<br />just bored, so i code<br />status: online ✓</pre> | <img src="./assets/ascii-animation.gif" alt="ASCII animation" width="100%" /> |
+| Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts.<br /><br />**Status:** Open for collaboration 🟢<br />**Location:** Taguig City, Philippines<br />**Timezone:** Asia/Manila (UTC+8)<br />**Focus:** PeritiaOS — developer-first Linux distro<br />**Learning:** Haskell | <img src="./assets/ascii-animation.gif" alt="ASCII animation" width="100%" /> |
 
 ---
 
-### `> cat tech_stack.txt`
+## Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,jest,cpp,ubuntu,linux,electron&theme=dark&perline=11" alt="Tech stack" />
@@ -32,7 +30,7 @@
 
 ---
 
-### `> metrics --display`
+## Metrics
 
 | Repos | Stars | Followers |
 |:-----:|:-----:|:---------:|
@@ -52,10 +50,10 @@
 
 ---
 
-### `> ls -la projects/`
+## Featured Projects
 
 <details open>
-<summary><b>Featured Projects</b></summary>
+<summary><b>Projects</b></summary>
 
 | Project | Language | Stars | Status |
 |:--------|:---------|:-----:|:------:|
@@ -67,10 +65,10 @@
 
 ---
 
-### `> proficiency --show`
+## Skills
 
 <details>
-<summary><b>Skill Breakdown</b></summary>
+<summary><b>Proficiency</b></summary>
 
 ```
 Backend
@@ -103,23 +101,23 @@ Database & Tools
 
 ---
 
-### `> cat recent_activity.log`
+## Recent Activity
 
 <details open>
-<summary><b>Activity Log</b></summary>
+<summary><b>Activity</b></summary>
 
 ```
-[2026] 🔨 Currently shipping: PeritiaOS (Peritia + PeritiaEngine in Rust)
-[2026] 📚 Learning: Haskell
-[2026] 🚀 Recently deployed: kenneth-portfolio-beige.vercel.app
-[2026] 🎯 Next milestone: PeritiaOS package manager & declarative core release
+[2026] Currently shipping: PeritiaOS (Peritia + PeritiaEngine in Rust)
+[2026] Learning: Haskell
+[2026] Recently deployed: kenneth-portfolio-beige.vercel.app
+[2026] Next milestone: PeritiaOS package manager & declarative core release
 ```
 
 </details>
 
 ---
 
-### `> connect --social`
+## Connect
 
 <p align="center">
   <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-00ff41?style=for-the-badge&logo=vercel&logoColor=0D1117" alt="Portfolio" /></a>
@@ -130,24 +128,8 @@ Database & Tools
 
 ---
 
-### `> echo "closing..."`
-
 <p align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║         Thanks for stopping by. Come back soon.              ║
-║                                                               ║
-║              Built with 🟢 Terminal Energy                    ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-<img src="https://komarev.com/ghpvc/?username=millareskenneth&color=00ff41" alt="Profile views" />
-
-<br />
-
-**© 2026 millareskenneth** • All code is poetry
-
+  <img src="https://komarev.com/ghpvc/?username=millareskenneth&color=00ff41" alt="Profile views" />
+  <br /><br />
+  <b>© 2026 millareskenneth</b> • All code is poetry
 </p>
