@@ -33,7 +33,7 @@
 ## Metrics
 
 <p align="center">
-  <img src="./assets/github-stats.svg" alt="GitHub Stats" />
+  <img src="./assets/current-streak.svg" alt="Current streak" />
   <img src="./assets/top-langs.svg" alt="Top Languages" />
   <br />
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
