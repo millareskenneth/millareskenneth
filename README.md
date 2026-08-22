@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=00ff41" alt="Portfolio" /></a>
-  <a href="https://github.com/millareskenneth?tab=followers"><img src="https://img.shields.io/badge/Followers-46-00ff41?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=0D1117" alt="Followers" /></a>
-  <a href="https://kenneth-portfolio-beige.vercel.app/#contact"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=gmail&logoColor=00ff41" alt="Contact" /></a>
+  <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-28134D?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Portfolio" /></a>
+  <a href="https://github.com/millareskenneth?tab=followers"><img src="https://img.shields.io/badge/Followers-46-28134D?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=1A0B33" alt="Followers" /></a>
+  <a href="https://kenneth-portfolio-beige.vercel.app/#contact"><img src="https://img.shields.io/badge/Contact-28134D?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Contact" /></a>
 </p>
 
 ---
@@ -18,7 +18,7 @@
 
 | | |
 |:---|:---:|
-| Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts.<br /><br />**Status:** Open for collaboration 🟢<br />**Location:** Taguig City, Philippines<br />**Timezone:** Asia/Manila (UTC+8)<br />**Focus:** PeritiaOS — developer-first Linux distro<br />**Learning:** Haskell | <img src="./assets/ascii-animation.gif" alt="ASCII animation" width="100%" /> |
+| Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts.<br /><br />**Status:** Open for collaboration<br />**Location:** Taguig City, Philippines<br />**Timezone:** Asia/Manila (UTC+8)<br />**Focus:** PeritiaOS — developer-first Linux distro<br />**Learning:** Haskell | <img src="./assets/ascii-animation.gif" alt="ASCII animation" width="100%" /> |
 
 ---
 
@@ -32,14 +32,9 @@
 
 ## Metrics
 
-| Repos | Stars | Followers |
-|:-----:|:-----:|:---------:|
-| **19** | **0** | **46** |
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=millareskenneth&show_icons=true&theme=chartreuse_dark&hide_border=true&bg_color=0D1117&title_color=00ff41&icon_color=00ff41&text_color=C9D1D9" alt="GitHub Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=chartreuse_dark&hide_border=true&bg_color=0D1117&title_color=00ff41&text_color=C9D1D9" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=millareskenneth&show_icons=true&hide_border=true&bg_color=28134D&title_color=FFFFFF&icon_color=C9B8E8&text_color=E6DEFA&ring_color=C9B8E8" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&hide_border=true&bg_color=28134D&title_color=FFFFFF&text_color=E6DEFA" alt="Top Languages" />
   <br />
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
   <br />
@@ -53,16 +48,16 @@
 ## Connect
 
 <p align="center">
-  <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-00ff41?style=for-the-badge&logo=vercel&logoColor=0D1117" alt="Portfolio" /></a>
-  <a href="https://github.com/millareskenneth"><img src="https://img.shields.io/badge/GitHub-00ff41?style=for-the-badge&logo=github&logoColor=0D1117" alt="GitHub" /></a>
-  <a href="https://kenneth-portfolio-beige.vercel.app/#contact"><img src="https://img.shields.io/badge/Contact-00ff41?style=for-the-badge&logo=gmail&logoColor=0D1117" alt="Contact" /></a>
-  <a href="https://millareskenneth.github.io"><img src="https://img.shields.io/badge/Interactive%20Terminal-00ff41?style=for-the-badge&logo=windows-terminal&logoColor=0D1117" alt="Interactive Terminal" /></a>
+  <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-28134D?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Portfolio" /></a>
+  <a href="https://github.com/millareskenneth"><img src="https://img.shields.io/badge/GitHub-28134D?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" /></a>
+  <a href="https://kenneth-portfolio-beige.vercel.app/#contact"><img src="https://img.shields.io/badge/Contact-28134D?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Contact" /></a>
+  <a href="https://millareskenneth.github.io"><img src="https://img.shields.io/badge/Interactive%20Terminal-28134D?style=for-the-badge&logo=windows-terminal&logoColor=FFFFFF" alt="Interactive Terminal" /></a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=millareskenneth&color=00ff41" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=millareskenneth&color=28134D" alt="Profile views" />
   <br /><br />
   <b>© 2026 millareskenneth</b> • All code is poetry
 </p>
