@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/kenneth.dev.svg" alt="kenneth.dev" width="720" />
+  <img src="./assets/kenneth.dev.svg" alt="kenneth.dev" width="480" />
 </p>
 
 <p align="center">
-  <img src="./assets/tagline.svg" alt="Anyone Can Build. Not Everyone Can Solve." width="900" />
+  <img src="./assets/tagline.svg" alt="Anyone Can Build. Not Everyone Can Solve." width="620" />
 </p>
 
 <p align="center">
@@ -33,9 +33,6 @@
 ## Metrics
 
 <p align="center">
-  <img src="./assets/current-streak.svg" alt="Current streak" />
-  <img src="./assets/top-langs.svg" alt="Top Languages" />
-  <br />
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
   <br />
   <img src="./github-isocalendar.svg" alt="Isometric calendar" width="100%" />
@@ -59,5 +56,5 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=millareskenneth&color=28134D" alt="Profile views" />
   <br /><br />
-  <b>© 2026 millareskenneth</b> • All code is poetry
+  <b>© 2026 millareskenneth</b> • Thanks for exploring my work. If you find a bug, consider it part of the experience.
 </p>
