@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>millareskenneth | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0e27;
+            color: #00ff41;
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+        }
+
+        /* ===== MATRIX BACKGROUND ===== */
+        .matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.05;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .scan-line {
+            position: fixed;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00ff41, transparent);
+            top: 0;
+            left: 0;
+            animation: scan 8s linear infinite;
+            opacity: 0.3;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        @keyframes scan {
+            0% { top: 0%; }
+            100% { top: 100%; }
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== HERO/BOOT SEQUENCE ===== */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .terminal-window {
+            background: rgba(10, 14, 39, 0.95);
+            border: 2px solid #00ff41;
+            border-radius: 8px;
+            padding: 25px;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 0 30px rgba(0, 255, 65, 0.3),
+                        inset 0 0 20px rgba(0, 255, 65, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .terminal-header {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #00ff41;
+        }
+
+        .terminal-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #00ff41;
+        }
+
+        .terminal-button:nth-child(2) {
+            background: #ffaa00;
+        }
+
+        .terminal-button:nth-child(3) {
+            background: #ff4444;
+        }
+
+        .ascii-art {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 12px;
+            line-height: 1.2;
+            white-space: pre;
+            color: #00ff41;
+            text-shadow: 0 0 10px #00ff41;
+            overflow-x: auto;
+        }
+
+        .typing-text {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 16px;
+            background: #00ff41;
+            margin-left: 4px;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+
+        .status-bar {
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #00ff41;
+            font-size: 11px;
+            opacity: 0.8;
+            text-align: center;
+        }
+
+        .status-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #00ff41;
+            animation: pulse 2s infinite;
+            margin-right: 6px;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .scroll-indicator {
+            text-align: center;
+            margin-top: 30px;
+            animation: bounce 2s infinite;
+            font-size: 20px;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        .section {
+            margin: 80px 0;
+            padding: 40px;
+            background: rgba(15, 26, 58, 0.6);
+            border: 1px solid #00ff41;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #00ff41;
+            text-shadow: 0 0 10px #00ff41;
+            border-bottom: 2px solid #00ff41;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .command-prefix {
+            opacity: 0.7;
+            font-size: 18px;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .tech-category {
+            background: rgba(10, 14, 39, 0.7);
+            border: 1px solid rgba(0, 255, 65, 0.3);
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .tech-category h3 {
+            color: #00ff41;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .tech-category ul {
+            list-style: none;
+            font-size: 13px;
+        }
+
+        .tech-category li {
+            padding: 5px 0;
+            opacity: 0.9;
+        }
+
+        .tech-category li:before {
+            content: "▸ ";
+            color: #00ff41;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        /* ===== PROJECTS ===== */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .project-card {
+            background: rgba(10, 14, 39, 0.8);
+            border: 1px solid #00ff41;
+            border-radius: 6px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.1);
+        }
+
+        .project-card:hover {
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+            transform: translateY(-5px);
+            border-color: #ffaa00;
+        }
+
+        .project-card h3 {
+            color: #00ff41;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .project-card .project-meta {
+            font-size: 11px;
+            opacity: 0.7;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+        }
+
+        .project-card p {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .project-card a {
+            color: #00ff41;
+            text-decoration: none;
+            font-size: 12px;
+            border: 1px solid #00ff41;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .project-card a:hover {
+            background: #00ff41;
+            color: #0a0e27;
+        }
+
+        /* ===== SKILLS SHOWCASE ===== */
+        .skills-table {
+            width: 100%;
+            margin: 30px 0;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        .skills-table th {
+            background: rgba(0, 255, 65, 0.1);
+            border: 1px solid #00ff41;
+            padding: 12px;
+            text-align: left;
+            color: #00ff41;
+        }
+
+        .skills-table td {
+            border: 1px solid rgba(0, 255, 65, 0.2);
+            padding: 12px;
+        }
+
+        .progress-bar {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .progress-bar-fill {
+            flex: 1;
+            height: 8px;
+            background: rgba(0, 255, 65, 0.2);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill span {
+            height: 100%;
+            background: #00ff41;
+            display: block;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #00ff41;
+        }
+
+        .progress-bar-text {
+            min-width: 35px;
+            text-align: right;
+            color: #00ff41;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 80px;
+            border-top: 1px solid #00ff41;
+            opacity: 0.8;
+            font-size: 12px;
+        }
+
+        .footer-ascii {
+            white-space: pre;
+            margin: 20px 0;
+            font-size: 11px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            color: #00ff41;
+            text-decoration: none;
+            border: 1px solid #00ff41;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            font-size: 13px;
+        }
+
+        .contact-link:hover {
+            background: #00ff41;
+            color: #0a0e27;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .section {
+                padding: 25px;
+                margin: 40px 0;
+            }
+
+            .section-title {
+                font-size: 18px;
+            }
+
+            .ascii-art {
+                font-size: 10px;
+                transform: scaleX(0.8);
+                transform-origin: center;
+            }
+
+            .tech-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-table {
+                font-size: 12px;
+            }
+
+            .skills-table th,
+            .skills-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas class="matrix-bg" id="matrixCanvas"></canvas>
+    <div class="scan-line"></div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <div class="hero-section">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-button"></div>
+                <div class="terminal-button"></div>
+                <div class="terminal-button"></div>
+            </div>
+
+            <div class="ascii-art" id="ascii-output"></div>
+
+            <div class="typing-text" style="text-align: center; margin: 20px 0;">
+                <p style="opacity: 0.7; margin-bottom: 10px;">$ boot_sequence.sh</p>
+                <p id="boot-text" style="margin: 10px 0;"></p>
+            </div>
+
+            <div style="text-align: center; margin: 30px 0;">
+                <div id="main-text"></div>
+                <span class="cursor"></span>
+            </div>
+
+            <div class="status-bar">
+                <span class="status-dot"></span>
+                <span id="status">System initializing...</span>
+            </div>
+
+            <div class="scroll-indicator">↓ SCROLL ↓</div>
+        </div>
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="content">
+
+        <!-- ===== WHOAMI ===== -->
+        <section class="section">
+            <div class="section-title">
+                <span class="command-prefix">$</span>
+                <span>whoami</span>
+            </div>
+            <p style="font-size: 14px; line-height: 1.8;">
+                Fullstack developer obsessed with shipping clean, performant code. When I'm not building things, I'm learning new ones. 
+                Terminal energy. Green neon vibes. Currently working on projects that challenge me and excite me—no boring code here.
+            </p>
+            <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(0, 255, 65, 0.2);">
+                <p><strong>Portfolio:</strong> <a href="https://kenneth-portfolio-beige.vercel.app/" style="color: #00ff41; text-decoration: underline;">kenneth-portfolio-beige.vercel.app</a></p>
+                <p><strong>Status:</strong> 🟢 Open for collaboration</p>
+                <p><strong>Timezone:</strong> {YOUR_TIMEZONE}</p>
+            </div>
+        </section>
+
+        <!-- ===== TECH STACK ===== -->
+        <section class="section">
+            <div class="section-title">
+                <span class="command-prefix">$</span>
+                <span>cat tech_stack.txt</span>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Django</li>
+                        <li>Laravel</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>Firebase</li>
+                        <li>Supabase</li>
+                    </ul>
+                </div>
+
+                <div class="tech-category">
+                    <h3>DevOps & Tools</h3>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>Linux / Ubuntu</li>
+                        <li>Docker</li>
+                        <li>Jest</li>
+                        <li>Electron</li>
+                    </ul>
+                </div>
+            </div>
+
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>React / Next.js</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill"><span style="width: 90%;"></span></div>
+                                <div class="progress-bar-text">90%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>TypeScript</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill"><span style="width: 85%;"></span></div>
+                                <div class="progress-bar-text">85%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Python / Django</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill"><span style="width: 88%;"></span></div>
+                                <div class="progress-bar-text">88%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PostgreSQL</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill"><span style="width: 82%;"></span></div>
+                                <div class="progress-bar-text">82%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DevOps / Linux</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill"><span style="width: 80%;"></span></div>
+                                <div class="progress-bar-text">80%</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section class="section">
+            <div class="section-title">
+                <span class="command-prefix">$</span>
+                <span>ls -la projects/</span>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>{PROJECT_1_NAME}</h3>
+                    <div class="project-meta">
+                        Status: ACTIVE | Language: {LANG} | ⭐ {STARS}
+                    </div>
+                    <p>{PROJECT_1_DESC}</p>
+                    <a href="{PROJECT_1_LINK}">→ View Repository</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>{PROJECT_2_NAME}</h3>
+                    <div class="project-meta">
+                        Status: ACTIVE | Language: {LANG} | ⭐ {STARS}
+                    </div>
+                    <p>{PROJECT_2_DESC}</p>
+                    <a href="{PROJECT_2_LINK}">→ View Repository</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>{PROJECT_3_NAME}</h3>
+                    <div class="project-meta">
+                        Status: ACTIVE | Language: {LANG} | ⭐ {STARS}
+                    </div>
+                    <p>{PROJECT_3_DESC}</p>
+                    <a href="{PROJECT_3_LINK}">→ View Repository</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ACTIVITY LOG ===== -->
+        <section class="section">
+            <div class="section-title">
+                <span class="command-prefix">$</span>
+                <span>tail -f latest_activity.log</span>
+            </div>
+
+            <div style="background: rgba(10, 14, 39, 0.7); padding: 20px; border-radius: 6px; border-left: 2px solid #00ff41; font-size: 13px; line-height: 2;">
+                <p>[2024] 🔨 <strong>Currently shipping:</strong> {CURRENT_PROJECT}</p>
+                <p>[2024] 📚 <strong>Learning:</strong> {LEARNING_TOPIC}</p>
+                <p>[2024] 🚀 <strong>Recently deployed:</strong> {RECENT_DEPLOY}</p>
+                <p>[2024] 🎯 <strong>Next milestone:</strong> {NEXT_GOAL}</p>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section class="section">
+            <div class="section-title">
+                <span class="command-prefix">$</span>
+                <span>connect --social</span>
+            </div>
+
+            <div class="contact-links">
+                <a href="https://kenneth-portfolio-beige.vercel.app/" class="contact-link">Portfolio</a>
+                <a href="https://github.com/millareskenneth" class="contact-link">GitHub</a>
+                <a href="mailto:{YOUR_EMAIL}" class="contact-link">Email</a>
+                <a href="https://linkedin.com/in/{LINKEDIN_HANDLE}" class="contact-link">LinkedIn</a>
+            </div>
+
+            <p style="text-align: center; margin-top: 30px; opacity: 0.8;">
+                🔓 Open for freelance work • 🚀 Looking for exciting projects • 💡 Always learning<br>
+                <strong>Let's build something cool together.</strong>
+            </p>
+        </section>
+
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-ascii">╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║          Thanks for visiting the terminal, friend         ║
+║                                                           ║
+║              Built with 🟢 Terminal Energy                ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝</div>
+        <p style="margin-top: 20px;">© 2024 millareskenneth. All code is poetry.</p>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script>
+        // Matrix Background
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const chars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
+        const charSize = 20;
+        const columns = canvas.width / charSize;
+        const drops = Array(Math.floor(columns)).fill(0);
+
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(10, 14, 39, 0.1)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = 'rgba(0, 255, 65, 0.1)';
+            ctx.font = charSize + 'px Arial';
+
+            for (let x = 0; x < drops.length; x++) {
+                const char = chars[Math.floor(Math.random() * chars.length)];
+                ctx.fillText(char, x * charSize, drops[x] * charSize);
+
+                if (drops[x] * charSize > canvas.height || Math.random() > 0.95) {
+                    drops[x] = 0;
+                }
+                drops[x]++;
+            }
+        }
+
+        setInterval(drawMatrix, 50);
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        // ASCII Art Animation
+        const asciiFrames = [
+            `   ██╗  ██╗███████╗███╗   ██╗███╗   ██╗███████╗████████╗██╗  ██╗
+   ██║ ██╔╝██╔════╝████╗  ██║████╗  ██║██╔════╝╚══██╔══╝██║  ██║
+   █████╔╝ █████╗  ██╔██╗ ██║██╔██╗ ██║█████╗     ██║   ███████║
+   ██╔═██╗ ██╔══╝  ██║╚██╗██║██║╚██╗██║██╔══╝     ██║   ██╔══██║
+   ██║  ██╗███████╗██║ ╚████║██║ ╚████║███████╗   ██║   ██║  ██║
+   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝`,
+            `╔═══════════════════════════════════════════════════════════════╗
+║           [ FULLSTACK DEVELOPER | BORED CODER ]              ║
+║                    millareskenneth v2.0                       ║
+╚═══════════════════════════════════════════════════════════════╝`
+        ];
+
+        let frameIndex = 0;
+        const asciiOutput = document.getElementById('ascii-output');
+
+        function animateAscii() {
+            if (frameIndex < asciiFrames.length) {
+                asciiOutput.textContent = asciiFrames[frameIndex];
+                frameIndex++;
+                setTimeout(animateAscii, 800);
+            }
+        }
+
+        // Boot Sequence
+        const bootText = document.getElementById('boot-text');
+        const bootMessages = [
+            'Initializing kernel...',
+            'Loading drivers...',
+            'Mounting filesystems...',
+            'Starting services...',
+            'System online ✓'
+        ];
+
+        let bootIndex = 0;
+
+        function animateBoot() {
+            if (bootIndex < bootMessages.length) {
+                bootText.textContent = bootMessages[bootIndex];
+                bootIndex++;
+                setTimeout(animateBoot, 400);
+            } else {
+                animateMain();
+            }
+        }
+
+        // Main Typing Text
+        const mainText = document.getElementById('main-text');
+        const fullText = `fullstack developer
+just bored, so i code
+
+Portfolio: kenneth-portfolio-beige.vercel.app
+Status: Open for collaboration`;
+
+        let textIndex = 0;
+
+        function animateMain() {
+            if (textIndex < fullText.length) {
+                mainText.textContent += fullText[textIndex];
+                textIndex++;
+                setTimeout(animateMain, 30);
+            } else {
+                document.getElementById('status').textContent = 'Ready to ship code ✓';
+            }
+        }
+
+        // Start all animations
+        animateAscii();
+        setTimeout(animateBoot, 2000);
+
+        // Smooth scroll for sections
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href'))?.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+{
+  "username": "millareskenneth",
+  "displayName": "millareskenneth",
+  "tagline": [
+    "fullstack developer",
+    "just bored, so I code",
+    "shipping clean code"
+  ],
+  "bio": "Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts. Terminal energy. Green neon vibes. Currently learning Haskell.",
+  "location": "Taguig City, Philippines",
+  "timezone": "Asia/Manila (UTC+8)",
+  "status": "Open for collaboration",
+  "currentFocus": "PeritiaOS — developer-first Linux distro",
+  "learning": "Haskell",
+  "theme": {
+    "background": "#0a0e27",
+    "accent": "#00ff41",
+    "textMuted": "#C9D1D9"
+  },
+  "links": {
+    "portfolio": "https://kenneth-portfolio-beige.vercel.app/",
+    "github": "https://github.com/millareskenneth",
+    "followers": "https://github.com/millareskenneth?tab=followers",
+    "interactiveTerminal": "https://millareskenneth.github.io",
+    "contact": "https://kenneth-portfolio-beige.vercel.app/#contact"
+  },
+  "techStack": {
+    "icons": "git,github,python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,jest,cpp,ubuntu,linux,electron",
+    "breakdown": {
+      "backend": [
+        { "name": "Python", "level": 88 },
+        { "name": "Flask", "level": 85 },
+        { "name": "Django", "level": 88 },
+        { "name": "Laravel", "level": 75 },
+        { "name": "C++", "level": 70 }
+      ],
+      "frontend": [
+        { "name": "JavaScript", "level": 90 },
+        { "name": "TypeScript", "level": 85 },
+        { "name": "React", "level": 90 },
+        { "name": "Next.js", "level": 85 },
+        { "name": "Tailwind CSS", "level": 92 },
+        { "name": "HTML/CSS", "level": 95 }
+      ],
+      "databases": [
+        { "name": "PostgreSQL", "level": 82 },
+        { "name": "MySQL", "level": 80 },
+        { "name": "Firebase", "level": 75 },
+        { "name": "Supabase", "level": 78 }
+      ],
+      "devops": [
+        { "name": "Git/GitHub", "level": 95 },
+        { "name": "Linux/Ubuntu", "level": 80 },
+        { "name": "Jest", "level": 75 },
+        { "name": "Electron", "level": 65 }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "name": "Spectra",
+      "status": "ACTIVE",
+      "language": "TypeScript",
+      "stars": 0,
+      "description": "High-performance passive security scanner for mobile apps. Local MitM proxy that intercepts traffic and flags API keys, leaked passwords, AWS credential exposure, and internal endpoint leaks.",
+      "techStack": ["TypeScript", "Node.js", "Regex Engines", "HTTPS Inspection"],
+      "url": "https://github.com/millareskenneth/Spectra"
+    },
+    {
+      "name": "Verita",
+      "status": "ACTIVE",
+      "language": "TypeScript",
+      "stars": 0,
+      "description": "Web platform that discovers, catalogs, and documents free open-source APIs — making them easy for developers to find, understand, test, and safely integrate.",
+      "techStack": ["TypeScript", "React", "Next.js"],
+      "url": "https://github.com/millareskenneth/Verita"
+    },
+    {
+      "name": "Peritia / PeritiaEngine",
+      "status": "ACTIVE",
+      "language": "CSS / Rust",
+      "stars": 0,
+      "description": "Public site and Rust engines for PeritiaOS — a developer-first Linux distro with declarative .peritia.yaml configs and a custom package manager.",
+      "techStack": ["Rust", "CSS", "YAML"],
+      "urls": {
+        "peritia": "https://github.com/millareskenneth/Peritia",
+        "peritiaEngine": "https://github.com/millareskenneth/PeritiaEngine"
+      }
+    }
+  ],
+  "activity": [
+    { "year": 2026, "icon": "🔨", "label": "Currently shipping", "value": "PeritiaOS (Peritia + PeritiaEngine in Rust)" },
+    { "year": 2026, "icon": "📚", "label": "Learning", "value": "Haskell" },
+    { "year": 2026, "icon": "🚀", "label": "Recently deployed", "value": "kenneth-portfolio-beige.vercel.app" },
+    { "year": 2026, "icon": "🎯", "label": "Next milestone", "value": "PeritiaOS package manager & declarative core release" }
+  ],
+  "achievements": [
+    { "icon": "🌟", "title": "Software Developer Intern", "detail": "Inspire Holdings Incorporated (Feb–Jun 2026)" },
+    { "icon": "🌟", "title": "Break My App Workshop", "detail": "1st place, AWSUG PH × AWSUG Davao" },
+    { "icon": "🌟", "title": "eGov Hackathon 2026", "detail": "eKumpirma, built on official DICT eGov APIs" },
+    { "icon": "🚀", "title": "IBM Bob 2.0 Hackathon", "detail": "48-hour AI-assisted development sprint" },
+    { "icon": "💡", "title": "APPCON Live Webinar", "detail": "OTIS Philippines Inc., AppCon 2024" }
+  ],
+  "social": [
+    { "platform": "Interactive Terminal", "url": "https://millareskenneth.github.io" },
+    { "platform": "Portfolio", "url": "https://kenneth-portfolio-beige.vercel.app/" },
+    { "platform": "GitHub", "url": "https://github.com/millareskenneth" },
+    { "platform": "Contact", "url": "https://kenneth-portfolio-beige.vercel.app/#contact" }
+  ],
+  "metrics": {
+    "githubMetricsSvg": "./github-metrics.svg",
+    "isocalendarSvg": "./github-isocalendar.svg",
+    "achievementsSvg": "./github-achievements.svg",
+    "topLangsUrl": "https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=chartreuse_dark&hide_border=true&bg_color=0a0e27&title_color=00ff41&text_color=C9D1D9&card_width=560"
+  },
+  "footer": {
+    "profileViews": "https://komarev.com/ghpvc/?username=millareskenneth&color=00ff41",
+    "copyright": "© 2026 millareskenneth • All code is poetry"
+  }
+}

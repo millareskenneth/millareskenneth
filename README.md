@@ -1,41 +1,67 @@
 <div align="center">
-  <h1>millareskenneth</h1>
-  
-  <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3200&pause=900&color=00ff41&center=true&vCenter=true&width=720&height=36&lines=fullstack+developer;just+bored,+so+I+code;shipping+clean+code"
-    alt="Typing SVG"
-    width="100%"
-  />
-  
-  <br/>
-  
-  **`$ status: online` 🟢**
-  
-  <br/>
-  
-  <a href="https://kenneth-portfolio-beige.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=00ff41" alt="Portfolio" height="28" />
-  </a>
-  <a href="https://github.com/millareskenneth?tab=followers">
-    <img src="https://img.shields.io/badge/Followers-Follow%20Me-00ff41?style=for-the-badge&logo=github" alt="Followers" height="28" />
-  </a>
-  <a href="https://millareskenneth.github.io">
-    <img src="https://img.shields.io/badge/Interactive%20Terminal-View%20Now-00ff41?style=for-the-badge&logo=windows-terminal" alt="Interactive Terminal" height="28" />
-  </a>
+
+  <img src="./assets/kenneth.dev.svg" alt="kenneth.dev" height="28" />
+  <br /><br />
+  <img src="./assets/tagline.svg" alt="Anyone Can Build. Not Everyone Can Solve." height="16" />
 
 </div>
+
+<br />
+
+<table>
+  <tr>
+    <td valign="top" width="55%">
+
+```text
+millareskenneth@github:~$ whoami
+────────────────────────────────────────
+fullstack developer
+just bored, so i code
+status: online 🟢
+────────────────────────────────────────
+location:  Taguig City, PH
+timezone:  Asia/Manila (UTC+8)
+focus:     PeritiaOS
+learning:  Haskell
+```
+
+<br />
+
+<img
+  src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=16&duration=3200&pause=900&color=00ff41&center=false&vCenter=true&width=420&height=32&lines=shipping+clean+code;building+secure+systems;just+bored,+so+I+code"
+  alt="Typing SVG"
+/>
+
+<br /><br />
+
+<a href="https://kenneth-portfolio-beige.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=00ff41" alt="Portfolio" height="28" />
+</a>
+<a href="https://millareskenneth.github.io">
+  <img src="https://img.shields.io/badge/Interactive%20Terminal-View%20Now-00ff41?style=for-the-badge&logo=windows-terminal" alt="Interactive Terminal" height="28" />
+</a>
+<a href="https://github.com/millareskenneth?tab=followers">
+  <img src="https://img.shields.io/badge/Followers-Follow%20Me-00ff41?style=for-the-badge&logo=github" alt="Followers" height="28" />
+</a>
+
+    </td>
+    <td align="right" valign="top" width="45%">
+
+<img src="./assets/ascii-animation.gif" alt="ASCII animation" width="320" />
+
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## ```
-## > whoami
+## > about
 ## ```
 
-Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts. Terminal energy. Green neon vibes. Currently learning **Haskell**.
+Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts. Terminal energy. Green neon vibes.
 
-**Location:** Taguig City, Philippines  
 **Status:** Open for collaboration 🟢  
-**Timezone:** Asia/Manila (UTC+8)  
 **Current Focus:** PeritiaOS — developer-first Linux distro
 
 ---
@@ -104,7 +130,7 @@ Fullstack developer — just bored, so I code. Building secure systems, AI-power
   Status: ACTIVE | Language: TypeScript | ⭐ 0
   ```
   > High-performance passive security scanner for mobile apps. Local MitM proxy that intercepts traffic and flags API keys, leaked passwords, AWS credential exposure, and internal endpoint leaks.
-  
+
   **Tech Stack:** TypeScript, Node.js, Regex Engines, HTTPS Inspection  
   **[→ View Repository](https://github.com/millareskenneth/Spectra)**
 
@@ -115,7 +141,7 @@ Fullstack developer — just bored, so I code. Building secure systems, AI-power
   Status: ACTIVE | Language: TypeScript | ⭐ 0
   ```
   > Web platform that discovers, catalogs, and documents free open-source APIs — making them easy for developers to find, understand, test, and safely integrate.
-  
+
   **Tech Stack:** TypeScript, React, Next.js  
   **[→ View Repository](https://github.com/millareskenneth/Verita)**
 
@@ -126,7 +152,7 @@ Fullstack developer — just bored, so I code. Building secure systems, AI-power
   Status: ACTIVE | Language: CSS / Rust | ⭐ 0
   ```
   > Public site and Rust engines for PeritiaOS — a developer-first Linux distro with declarative `.peritia.yaml` configs and a custom package manager.
-  
+
   **Tech Stack:** Rust, CSS, YAML  
   **[→ Peritia](https://github.com/millareskenneth/Peritia)** • **[→ PeritiaEngine](https://github.com/millareskenneth/PeritiaEngine)**
 
@@ -146,7 +172,7 @@ Fullstack developer — just bored, so I code. Building secure systems, AI-power
   ![GitHub Metrics](./github-metrics.svg)
 
   ![Half-year Isometric Calendar](./github-isocalendar.svg)
-  
+
   ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=chartreuse_dark&hide_border=true&bg_color=0a0e27&title_color=00ff41&text_color=C9D1D9&card_width=560)
 
   ![Achievements](./github-achievements.svg)
@@ -198,8 +224,6 @@ Fullstack developer — just bored, so I code. Building secure systems, AI-power
 
 <div align="center">
 
-### Let's Connect
-
 | Platform | Link |
 |----------|------|
 | **Interactive Terminal** | [millareskenneth.github.io](https://millareskenneth.github.io) |
@@ -223,26 +247,6 @@ Fullstack developer — just bored, so I code. Building secure systems, AI-power
 🤝 **Collaboration-friendly**
 
 **Let's build something cool together.**
-
-</div>
-
----
-
-## ```
-## > cat disclaimer.txt
-## ```
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║         Thanks for stopping by. Come back soon.              ║
-║                                                               ║
-║              Built with 🟢 Terminal Energy                    ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
 
 </div>
 
