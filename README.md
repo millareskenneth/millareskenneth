@@ -33,8 +33,8 @@
 ## Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=millareskenneth&show_icons=true&hide_border=true&bg_color=28134D&title_color=FFFFFF&icon_color=C9B8E8&text_color=E6DEFA&ring_color=C9B8E8" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&hide_border=true&bg_color=28134D&title_color=FFFFFF&text_color=E6DEFA" alt="Top Languages" />
+  <img src="./assets/github-stats.svg" alt="GitHub Stats" />
+  <img src="./assets/top-langs.svg" alt="Top Languages" />
   <br />
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
   <br />
