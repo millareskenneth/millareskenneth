@@ -18,7 +18,7 @@
 
 | | |
 |:---|:---:|
-| Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts.<br /><br />**Status:** Open for collaboration<br />**Location:** Taguig City, Philippines<br />**Timezone:** Asia/Manila (UTC+8)<br />**Focus:** PeritiaOS — developer-first Linux distro<br />**Learning:** Haskell | <img src="./assets/ascii-animation.gif" alt="ASCII animation" width="100%" /> |
+| <img src="./assets/about-copy.png" alt="About" width="100%" /> | <img src="./assets/ascii-animation.gif" alt="ASCII animation" width="100%" /> |
 
 ---
 
@@ -48,7 +48,6 @@
   <a href="https://kenneth-portfolio-beige.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-28134D?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Portfolio" /></a>
   <a href="https://github.com/millareskenneth"><img src="https://img.shields.io/badge/GitHub-28134D?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" /></a>
   <a href="https://kenneth-portfolio-beige.vercel.app/#contact"><img src="https://img.shields.io/badge/Contact-28134D?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Contact" /></a>
-  <a href="https://millareskenneth.github.io"><img src="https://img.shields.io/badge/Interactive%20Terminal-28134D?style=for-the-badge&logo=windows-terminal&logoColor=FFFFFF" alt="Interactive Terminal" /></a>
 </p>
 
 ---
