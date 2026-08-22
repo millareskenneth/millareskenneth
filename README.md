@@ -1,150 +1,257 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,100:003b00&height=140&section=header&text=millareskenneth&fontSize=42&fontColor=00ff41&animation=twinkling" alt="millareskenneth" width="100%" />
-
-<pre>
-╔═══════════════════════════════════════════════════════════════╗
-║           [ FULLSTACK DEVELOPER | BORED CODER ]              ║
-║                    millareskenneth v2.0                       ║
-╚═══════════════════════════════════════════════════════════════╝
-</pre>
-
-<img
-  src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3200&pause=900&color=00FF41&center=true&vCenter=true&width=720&height=36&lines=fullstack+developer;just+bored,+so+I+code"
-  alt="Typing SVG"
-  width="100%"
-/>
-
-<br />
-
-<a href="https://kenneth-portfolio-beige.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-0a0e27?style=for-the-badge&logo=vercel&logoColor=00ff41" alt="Portfolio" height="28" />
-</a>
-<a href="https://github.com/millareskenneth">
-  <img src="https://img.shields.io/badge/GitHub-0a0e27?style=for-the-badge&logo=github&logoColor=00ff41" alt="GitHub" height="28" />
-</a>
-<a href="https://github.com/millareskenneth?tab=followers">
-  <img src="https://img.shields.io/github/followers/millareskenneth?label=Followers&style=for-the-badge&color=003b00&labelColor=0a0e27" alt="Followers" height="28" />
-</a>
-
-</div>
-
----
-
-### `$ whoami`
-
-> Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms,
-> and developer tools where correctness and security are features, not afterthoughts.
-> Terminal energy. Green neon vibes. Currently learning **Haskell**.
-
-| | |
-| :--- | :--- |
-| **Portfolio** | [kenneth-portfolio-beige.vercel.app](https://kenneth-portfolio-beige.vercel.app/) |
-| **Location** | Taguig City, Philippines |
-| **Status** | 🟢 Open for collaboration |
-| **Timezone** | Asia/Manila (UTC+8) |
-
----
-
-<details open>
-<summary><b>$ cat tech_stack.txt</b></summary>
-<br />
-
-<div align="center">
+  <h1>millareskenneth</h1>
+  
   <img
-    src="https://skillicons.dev/icons?i=git,github,python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,jest,cpp,ubuntu,linux,electron&theme=dark&perline=11"
-    alt="Technologies"
+    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3200&pause=900&color=00ff41&center=true&vCenter=true&width=720&height=36&lines=fullstack+developer;just+bored,+so+I+code;shipping+clean+code"
+    alt="Typing SVG"
     width="100%"
   />
+  
+  <br/>
+  
+  **`$ status: online` 🟢**
+  
+  <br/>
+  
+  <a href="https://kenneth-portfolio-beige.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=00ff41" alt="Portfolio" height="28" />
+  </a>
+  <a href="https://github.com/millareskenneth?tab=followers">
+    <img src="https://img.shields.io/badge/Followers-Follow%20Me-00ff41?style=for-the-badge&logo=github" alt="Followers" height="28" />
+  </a>
+  <a href="https://millareskenneth.github.io">
+    <img src="https://img.shields.io/badge/Interactive%20Terminal-View%20Now-00ff41?style=for-the-badge&logo=windows-terminal" alt="Interactive Terminal" height="28" />
+  </a>
+
 </div>
 
-<br />
+---
 
-| Technology | Proficiency |
-| :--- | :--- |
-| React / Next.js | `██████████████████░░` **90%** |
-| TypeScript | `█████████████████░░░` **85%** |
-| Python / Django | `█████████████████░░░` **88%** |
-| PostgreSQL | `████████████████░░░░` **82%** |
-| DevOps / Linux | `████████████████░░░░` **80%** |
+## ```
+## > whoami
+## ```
 
-</details>
+Fullstack developer — just bored, so I code. Building secure systems, AI-powered platforms, and developer tools where correctness and security are features, not afterthoughts. Terminal energy. Green neon vibes. Currently learning **Haskell**.
+
+**Location:** Taguig City, Philippines  
+**Status:** Open for collaboration 🟢  
+**Timezone:** Asia/Manila (UTC+8)  
+**Current Focus:** PeritiaOS — developer-first Linux distro
 
 ---
+
+## ```
+## > cat tech_stack.txt
+## ```
+
+<img src="https://skillicons.dev/icons?i=git,github,python,js,ts,react,nextjs,tailwind,html,css,flask,django,supabase,firebase,postgresql,laravel,mysql,jest,cpp,ubuntu,linux,electron&theme=dark&perline=11" width="100%" />
 
 <details open>
-<summary><b>$ ls -la projects/</b></summary>
-<br />
+  <summary><b>📚 Tech Stack Breakdown</b></summary>
 
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| [**Spectra**](https://github.com/millareskenneth/Spectra) | TypeScript | Passive security scanner — MitM proxy that flags API keys, leaked passwords, and credential exposure in mobile traffic. |
-| [**Verita**](https://github.com/millareskenneth/Verita) | TypeScript | Discovers, catalogs, and documents free open-source APIs for developers to find, test, and integrate safely. |
-| [**Peritia**](https://github.com/millareskenneth/Peritia) | CSS | Public site for PeritiaOS — landing, docs portal, and live dev updates for a developer-first Linux distro. |
-| [**PeritiaEngine**](https://github.com/millareskenneth/PeritiaEngine) | Rust | PeritiaOS engines — package manager, `.peritia.yaml` declarative core, shared libs. |
+  <br/>
+
+  ### Backend & Languages
+  ```
+  ▸ Python        [████████░░] 88%
+  ▸ Flask         [████████░░] 85%
+  ▸ Django        [████████░░] 88%
+  ▸ Laravel       [██████░░░░] 75%
+  ▸ C++           [███████░░░] 70%
+  ```
+
+  ### Frontend & UI
+  ```
+  ▸ JavaScript    [████████░░] 90%
+  ▸ TypeScript    [████████░░] 85%
+  ▸ React         [████████░░] 90%
+  ▸ Next.js       [████████░░] 85%
+  ▸ Tailwind CSS  [█████████░] 92%
+  ▸ HTML/CSS      [█████████░] 95%
+  ```
+
+  ### Databases & Storage
+  ```
+  ▸ PostgreSQL    [████████░░] 82%
+  ▸ MySQL         [███████░░░] 80%
+  ▸ Firebase      [███████░░░] 75%
+  ▸ Supabase      [███████░░░] 78%
+  ```
+
+  ### DevOps & Tools
+  ```
+  ▸ Git/GitHub    [█████████░] 95%
+  ▸ Linux/Ubuntu  [████████░░] 80%
+  ▸ Jest          [███████░░░] 75%
+  ▸ Electron      [██████░░░░] 65%
+  ```
 
 </details>
 
 ---
+
+## ```
+## > ls -la projects/
+## ```
+
+<details open>
+  <summary><b>🔥 Featured Projects</b></summary>
+
+  <br/>
+
+  ### **Spectra**
+  ```
+  Status: ACTIVE | Language: TypeScript | ⭐ 0
+  ```
+  > High-performance passive security scanner for mobile apps. Local MitM proxy that intercepts traffic and flags API keys, leaked passwords, AWS credential exposure, and internal endpoint leaks.
+  
+  **Tech Stack:** TypeScript, Node.js, Regex Engines, HTTPS Inspection  
+  **[→ View Repository](https://github.com/millareskenneth/Spectra)**
+
+  ---
+
+  ### **Verita**
+  ```
+  Status: ACTIVE | Language: TypeScript | ⭐ 0
+  ```
+  > Web platform that discovers, catalogs, and documents free open-source APIs — making them easy for developers to find, understand, test, and safely integrate.
+  
+  **Tech Stack:** TypeScript, React, Next.js  
+  **[→ View Repository](https://github.com/millareskenneth/Verita)**
+
+  ---
+
+  ### **Peritia / PeritiaEngine**
+  ```
+  Status: ACTIVE | Language: CSS / Rust | ⭐ 0
+  ```
+  > Public site and Rust engines for PeritiaOS — a developer-first Linux distro with declarative `.peritia.yaml` configs and a custom package manager.
+  
+  **Tech Stack:** Rust, CSS, YAML  
+  **[→ Peritia](https://github.com/millareskenneth/Peritia)** • **[→ PeritiaEngine](https://github.com/millareskenneth/PeritiaEngine)**
+
+</details>
+
+---
+
+## ```
+## > metrics --display
+## ```
+
+<details open>
+  <summary><b>📊 GitHub Statistics</b></summary>
+
+  <br/>
+
+  ![GitHub Metrics](./github-metrics.svg)
+
+  ![Half-year Isometric Calendar](./github-isocalendar.svg)
+  
+  ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=chartreuse_dark&hide_border=true&bg_color=0a0e27&title_color=00ff41&text_color=C9D1D9&card_width=560)
+
+  ![Achievements](./github-achievements.svg)
+
+</details>
+
+---
+
+## ```
+## > tail -f activity.log
+## ```
+
+<details open>
+  <summary><b>📝 Recent Activity</b></summary>
+
+  ```
+  [2026] 🔨 Currently shipping: PeritiaOS (Peritia + PeritiaEngine in Rust)
+  [2026] 📚 Learning: Haskell
+  [2026] 🚀 Recently deployed: kenneth-portfolio-beige.vercel.app
+  [2026] 🎯 Next milestone: PeritiaOS package manager & declarative core release
+  ```
+
+</details>
+
+---
+
+## ```
+## > cat achievements.txt
+## ```
 
 <details>
-<summary><b>$ tail -f latest_activity.log</b></summary>
-<br />
+  <summary><b>🏆 Achievements & Highlights</b></summary>
 
-```text
-[2026] 🔨 Currently shipping: PeritiaOS (Peritia + PeritiaEngine in Rust)
-[2026] 📚 Learning: Haskell
-[2026] 🚀 Recently deployed: kenneth-portfolio-beige.vercel.app
-[2026] 🎯 Next milestone: PeritiaOS package manager & declarative core release
-```
+  <br/>
+
+  - 🌟 **Software Developer Intern** — Inspire Holdings Incorporated (Feb–Jun 2026)
+  - 🌟 **Break My App Workshop** — 1st place, AWSUG PH × AWSUG Davao
+  - 🌟 **eGov Hackathon 2026** — eKumpirma, built on official DICT eGov APIs
+  - 🚀 **IBM Bob 2.0 Hackathon** — 48-hour AI-assisted development sprint
+  - 💡 **APPCON Live Webinar** — OTIS Philippines Inc., AppCon 2024
 
 </details>
 
 ---
 
-### `$ cat github_metrics.svg`
+## ```
+## > connect --social
+## ```
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
-  <br />
-  <img src="./github-isocalendar.svg" alt="Half-year isometric commit calendar" width="100%" />
-  <br />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=millareskenneth&layout=compact&langs_count=8&theme=chartreuse_dark&hide_border=true&bg_color=0a0e27&title_color=00ff41&text_color=C9D1D9&card_width=560"
-    alt="Most used languages"
-    width="100%"
-  />
-  <br />
-  <img src="./github-achievements.svg" alt="Achievements" width="100%" />
+
+### Let's Connect
+
+| Platform | Link |
+|----------|------|
+| **Interactive Terminal** | [millareskenneth.github.io](https://millareskenneth.github.io) |
+| **Portfolio** | [kenneth-portfolio-beige.vercel.app](https://kenneth-portfolio-beige.vercel.app/) |
+| **GitHub** | [@millareskenneth](https://github.com/millareskenneth) |
+| **Contact** | [Portfolio Contact Form](https://kenneth-portfolio-beige.vercel.app/#contact) |
+
 </div>
 
 ---
 
-### `$ connect --social`
+## ```
+## > echo "status"
+## ```
 
 <div align="center">
 
-<a href="https://kenneth-portfolio-beige.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-00ff41?style=for-the-badge&logo=vercel&logoColor=0a0e27" alt="Portfolio" height="28" />
-</a>
-<a href="https://github.com/millareskenneth">
-  <img src="https://img.shields.io/badge/GitHub-00ff41?style=for-the-badge&logo=github&logoColor=0a0e27" alt="GitHub" height="28" />
-</a>
-<a href="https://kenneth-portfolio-beige.vercel.app/#contact">
-  <img src="https://img.shields.io/badge/Contact-00ff41?style=for-the-badge&logo=gmail&logoColor=0a0e27" alt="Contact" height="28" />
-</a>
+🔓 **Open for freelance work**  
+🚀 **Looking for exciting projects**  
+💡 **Always learning & improving**  
+🤝 **Collaboration-friendly**
 
-<br /><br />
+**Let's build something cool together.**
 
-🔓 Open for freelance work • 🚀 Looking for exciting projects • 💡 Always learning
+</div>
 
-<br />
+---
 
-<pre>
-╔═══════════════════════════════════════════════════════════╗
-║          Thanks for visiting the terminal, friend         ║
-║              Built with 🟢 Terminal Energy                ║
-╚═══════════════════════════════════════════════════════════╝
-</pre>
+## ```
+## > cat disclaimer.txt
+## ```
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║         Thanks for stopping by. Come back soon.              ║
+║                                                               ║
+║              Built with 🟢 Terminal Energy                    ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=millareskenneth&color=00ff41)
+
+**© 2026 millareskenneth** • All code is poetry
 
 </div>
