@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="./assets/kenneth.dev.svg" alt="kenneth.dev" width="480" />
-</p>
-
-<p align="center">
-  <img src="./assets/tagline.svg" alt="Anyone Can Build. Not Everyone Can Solve." width="620" />
+  <img src="./assets/header-banner.svg" alt="kenneth.dev — Anyone can build. Not everyone can solve." width="720" />
 </p>
 
 <p align="center">

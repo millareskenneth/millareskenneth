@@ -7,8 +7,7 @@ GitHub profile README — custom Figma assets + ASCII hero.
 ```
 kenneth-github/
 ├── assets/
-│   ├── kenneth.dev.svg          # Header logo
-│   ├── tagline.svg              # Tagline
+│   ├── header-banner.svg        # Header: kenneth.dev + tagline
 │   └── ascii-animation.gif      # Hero animation (right)
 ├── data/profile.json            # Profile content source
 ├── README.md                    # Profile README
