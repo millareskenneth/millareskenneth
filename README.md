@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header-banner.svg" alt="kenneth.dev — Anyone can build. Not everyone can solve." width="720" />
+  <img src="./assets/header-banner.svg" alt="kenneth.dev" width="720" />
 </p>
 
 <p align="center">
